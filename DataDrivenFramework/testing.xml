@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Data Driven Framework Project">
+<listeners>
+ <listener class-name="org.uncommons.reportng.HTMLReporter" />
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ </listeners>
+<parameter name="browser" value="chrome"/>
+<test name="Data Driven Framework">
+<classes>
+	  <class name="com.medicathrms.Login"/>
+	  <class name="com.medicathrms.Dashboard"/>
+</classes>
+</test> 
+</suite>
+		
