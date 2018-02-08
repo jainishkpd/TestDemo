@@ -13,7 +13,7 @@ public class Dashboard extends BrowserSetup {
 	
 	@Test
 	public void dashboard() throws IOException
-	{ 
+	{  
 		String page_title = driver.getTitle();
 		System.out.println(page_title);
 		
